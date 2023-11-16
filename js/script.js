@@ -13,7 +13,7 @@ document.getElementById("button-up").addEventListener("click", scrollUp);
 
 function scrollUp(){
 
-    var currentScroll = document.documentElement.scrollTop;
+    var currentScroll = document.documentElement.scrollTop||document.body.scrollTop;
 
     if (currentScroll > 0){
         window.requestAnimationFrame(scrollUp);

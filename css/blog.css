@@ -1,6 +1,5 @@
 /*Portada*/
 
-
 .blog-container-cover{
     width: 100%;
     height: 500px;
@@ -166,22 +165,22 @@ input[type="radio"]{
     display: block;
 }
 
-[value="HTML"]:checked ~ .posts .post:not([data-category~="HTML"]),
-[value="CSS"]:checked ~ .posts .post:not([data-category~="CSS"]),
-[value="JS"]:checked ~ .posts .post:not([data-category~="JS"]),
-[value="PHP"]:checked ~ .posts .post:not([data-category~="PHP"]),
-[value="NODEJS"]:checked ~ .posts .post:not([data-category~="NODEJS"]),
-[value="VUE"]:checked ~ .posts .post:not([data-category~="VUE"]){
+[value="Concentracion"]:checked ~ .posts .post:not([data-category~="Concentracion"]),
+[value="Estudio"]:checked ~ .posts .post:not([data-category~="Estudio"]),
+[value="Emociones"]:checked ~ .posts .post:not([data-category~="Emociones"]),
+[value="Habilidades"]:checked ~ .posts .post:not([data-category~="Habilidades"]),
+[value="IntEmocional"]:checked ~ .posts .post:not([data-category~="IntEmocional"]),
+[value="DesarrolloProf"]:checked ~ .posts .post:not([data-category~="DesarrolloProf"]){
     display: none;
 }
 
 [value="TODOS"]:checked ~ .container-category [for="TODOS"],
-[value="HTML"]:checked ~ .container-category [for="HTML"],
-[value="CSS"]:checked ~ .container-category [for="CSS"],
-[value="JS"]:checked ~ .container-category [for="JS"],
-[value="PHP"]:checked ~ .container-category [for="PHP"],
-[value="NODEJS"]:checked ~ .container-category [for="NODEJS"],
-[value="VUE"]:checked ~ .container-category [for="VUE"]{
+[value="Concentracion"]:checked ~ .container-category [for="Concentracion"],
+[value="Estudio"]:checked ~ .container-category [for="Estudio"],
+[value="Emociones"]:checked ~ .container-category [for="Emociones"],
+[value="Habilidades"]:checked ~ .container-category [for="Habilidades"],
+[value="IntEmocional"]:checked ~ .container-category [for="IntEmocional"],
+[value="DesarrolloProf"]:checked ~ .container-category [for="DesarrolloProf"]{
     background: rgba(247, 126, 46, 0.76);
     color: #fff;
 }
