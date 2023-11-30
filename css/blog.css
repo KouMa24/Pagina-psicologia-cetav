@@ -5,7 +5,7 @@
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/im3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,6 +141,10 @@ input[type="radio"]{
     cursor: default;
 }
 
+.logo{
+    width: 290px;
+    height: 100px;
+}
 
 .post button{
     margin-top: 20px;
